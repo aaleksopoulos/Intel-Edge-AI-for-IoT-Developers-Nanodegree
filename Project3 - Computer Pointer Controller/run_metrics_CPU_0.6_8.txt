@@ -1,0 +1,56 @@
+=======================================================================================================================================
+|        Face Detection        |      src/models/intel/face-detection-adas-binary-0001/FP32-INT1/face-detection-adas-binary-0001      |
+|  Facial Landmarks Detection  |     src/models/intel/landmarks-regression-retail-0009/FP16-INT8/landmarks-regression-retail-0009     |
+|     Head Pose Estimation     |       src/models/intel/head-pose-estimation-adas-0001/FP16-INT8/head-pose-estimation-adas-0001       |
+|       Gaze Estimation        |            src/models/intel/gaze-estimation-adas-0002/FP16-INT8/gaze-estimation-adas-0002            |
+|            device            |                                                 CPU                                                  |
+|      show output video       |                                                 True                                                 |
+|         show preview         |                                                False                                                 |
+|        prob threshold        |                                                 0.6                                                  |
+|time to load the models (secs)|                                                 2.501                                                |
+|     inferece time (secs)     |                                                 1.388                                                |
+|             fps              |                                                  42                                                  |
+|       memory used (Mb)       |                                               302.379                                                |
+=======================================================================================================================================
+=======================================================================================================================================
+|        Face Detection        |      src/models/intel/face-detection-adas-binary-0001/FP32-INT1/face-detection-adas-binary-0001      |
+|  Facial Landmarks Detection  |     src/models/intel/landmarks-regression-retail-0009/FP16-INT8/landmarks-regression-retail-0009     |
+|     Head Pose Estimation     |       src/models/intel/head-pose-estimation-adas-0001/FP16-INT8/head-pose-estimation-adas-0001       |
+|       Gaze Estimation        |            src/models/intel/gaze-estimation-adas-0002/FP16-INT8/gaze-estimation-adas-0002            |
+|            device            |                                                 CPU                                                  |
+|      show output video       |                                                 True                                                 |
+|         show preview         |                                                 True                                                 |
+|        prob threshold        |                                                 0.6                                                  |
+|time to load the models (secs)|                                                 2.486                                                |
+|     inferece time (secs)     |                                                 1.366                                                |
+|             fps              |                                                  43                                                  |
+|       memory used (Mb)       |                                               310.844                                                |
+=======================================================================================================================================
+=======================================================================================================================================
+|        Face Detection        |      src/models/intel/face-detection-adas-binary-0001/FP32-INT1/face-detection-adas-binary-0001      |
+|  Facial Landmarks Detection  |     src/models/intel/landmarks-regression-retail-0009/FP16-INT8/landmarks-regression-retail-0009     |
+|     Head Pose Estimation     |       src/models/intel/head-pose-estimation-adas-0001/FP16-INT8/head-pose-estimation-adas-0001       |
+|       Gaze Estimation        |            src/models/intel/gaze-estimation-adas-0002/FP16-INT8/gaze-estimation-adas-0002            |
+|            device            |                                                 CPU                                                  |
+|      show output video       |                                                False                                                 |
+|         show preview         |                                                 True                                                 |
+|        prob threshold        |                                                 0.6                                                  |
+|time to load the models (secs)|                                                 2.508                                                |
+|     inferece time (secs)     |                                                 1.386                                                |
+|             fps              |                                                  43                                                  |
+|       memory used (Mb)       |                                               308.426                                                |
+=======================================================================================================================================
+=======================================================================================================================================
+|        Face Detection        |      src/models/intel/face-detection-adas-binary-0001/FP32-INT1/face-detection-adas-binary-0001      |
+|  Facial Landmarks Detection  |     src/models/intel/landmarks-regression-retail-0009/FP16-INT8/landmarks-regression-retail-0009     |
+|     Head Pose Estimation     |       src/models/intel/head-pose-estimation-adas-0001/FP16-INT8/head-pose-estimation-adas-0001       |
+|       Gaze Estimation        |            src/models/intel/gaze-estimation-adas-0002/FP16-INT8/gaze-estimation-adas-0002            |
+|            device            |                                                 CPU                                                  |
+|      show output video       |                                                False                                                 |
+|         show preview         |                                                False                                                 |
+|        prob threshold        |                                                 0.6                                                  |
+|time to load the models (secs)|                                                 2.546                                                |
+|     inferece time (secs)     |                                                 1.357                                                |
+|             fps              |                                                  43                                                  |
+|       memory used (Mb)       |                                               288.547                                                |
+=======================================================================================================================================

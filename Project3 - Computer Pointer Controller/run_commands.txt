@@ -1,0 +1,78 @@
+======================================= FP32 =======================================
+-run at default precision (FP32), device CPU, not showing preview, showing output video
+python3 main.py
+
+-run at default precision (FP32), device GPU, not showing preview, showing output video
+python3 main.py --device GPU
+
+-run at default precision (FP32), device CPU, show preview and output video
+python3 main.py --show_preview True
+
+-run at default precision (FP32), device GPU, show preview and output video
+python3 main.py --device GPU --show_preview True
+
+-run at default precision (FP32), device CPU, show preview but no output video
+python3 main.py --show_preview True --show_video False
+
+-run at default precision (FP32), device GPU, show preview but no output video
+python3 main.py --device GPU --show_preview True --show_video False
+
+-run at default precision (FP32), device CPU, not showing preview and no output video
+python3 main.py --show_video False
+
+-run at default precision (FP32), device GPU, not showing preview and no output video
+python3 main.py --device GPU --show_video False
+
+
+
+======================================= FP16 =======================================
+-run at FP16 precision, device CPU, not showing preview, showing output video
+python3 main.py --facialLandmarksDetectionmodel src/models/intel/landmarks-regression-retail-0009/FP16/landmarks-regression-retail-0009 --headPoseModel src/models/intel/head-pose-estimation-adas-0001/FP16/head-pose-estimation-adas-0001 --gazeEstimationModel src/models/intel/gaze-estimation-adas-0002/FP16/gaze-estimation-adas-0002
+
+-run at FP16 precision , device GPU, not showing preview, showing output video
+python3 main.py --device GPU --facialLandmarksDetectionmodel src/models/intel/landmarks-regression-retail-0009/FP16/landmarks-regression-retail-0009 --headPoseModel src/models/intel/head-pose-estimation-adas-0001/FP16/head-pose-estimation-adas-0001 --gazeEstimationModel src/models/intel/gaze-estimation-adas-0002/FP16/gaze-estimation-adas-0002
+
+-run at FP16 precision, device CPU, show preview and output video
+python3 main.py --facialLandmarksDetectionmodel src/models/intel/landmarks-regression-retail-0009/FP16/landmarks-regression-retail-0009 --headPoseModel src/models/intel/head-pose-estimation-adas-0001/FP16/head-pose-estimation-adas-0001 --gazeEstimationModel src/models/intel/gaze-estimation-adas-0002/FP16/gaze-estimation-adas-0002 --show_preview True
+
+-run at FP16 precision , device GPU, show preview and output video
+python3 main.py --device GPU --facialLandmarksDetectionmodel src/models/intel/landmarks-regression-retail-0009/FP16/landmarks-regression-retail-0009 --headPoseModel src/models/intel/head-pose-estimation-adas-0001/FP16/head-pose-estimation-adas-0001 --gazeEstimationModel src/models/intel/gaze-estimation-adas-0002/FP16/gaze-estimation-adas-0002 --show_preview True
+
+-run at FP16 precision, device CPU, show preview but no output video
+python3 main.py --facialLandmarksDetectionmodel src/models/intel/landmarks-regression-retail-0009/FP16/landmarks-regression-retail-0009 --headPoseModel src/models/intel/head-pose-estimation-adas-0001/FP16/head-pose-estimation-adas-0001 --gazeEstimationModel src/models/intel/gaze-estimation-adas-0002/FP16/gaze-estimation-adas-0002 --show_preview True  --show_video False
+
+-run at FP16 precision , device GPU, show preview but no output video
+python3 main.py --device GPU --facialLandmarksDetectionmodel src/models/intel/landmarks-regression-retail-0009/FP16/landmarks-regression-retail-0009 --headPoseModel src/models/intel/head-pose-estimation-adas-0001/FP16/head-pose-estimation-adas-0001 --gazeEstimationModel src/models/intel/gaze-estimation-adas-0002/FP16/gaze-estimation-adas-0002 --show_preview True --show_video False
+
+-run at FP16 precision, device CPU, not showing preview and no output video
+python3 main.py --facialLandmarksDetectionmodel src/models/intel/landmarks-regression-retail-0009/FP16/landmarks-regression-retail-0009 --headPoseModel src/models/intel/head-pose-estimation-adas-0001/FP16/head-pose-estimation-adas-0001 --gazeEstimationModel src/models/intel/gaze-estimation-adas-0002/FP16/gaze-estimation-adas-0002 --show_video False
+
+-run at FP16 precision , device GPU, not showing preview and no output video
+python3 main.py --device GPU --facialLandmarksDetectionmodel src/models/intel/landmarks-regression-retail-0009/FP16/landmarks-regression-retail-0009 --headPoseModel src/models/intel/head-pose-estimation-adas-0001/FP16/head-pose-estimation-adas-0001 --gazeEstimationModel src/models/intel/gaze-estimation-adas-0002/FP16/gaze-estimation-adas-0002 --show_video False
+
+======================================= INT8 =======================================
+-run at INT8 precision, device CPU, not showing preview, showing output video
+python3 main.py --facialLandmarksDetectionmodel src/models/intel/landmarks-regression-retail-0009/FP16-INT8/landmarks-regression-retail-0009 --headPoseModel src/models/intel/head-pose-estimation-adas-0001/FP16-INT8/head-pose-estimation-adas-0001 --gazeEstimationModel src/models/intel/gaze-estimation-adas-0002/FP16-INT8/gaze-estimation-adas-0002
+
+-run at INT8 precision , device GPU, not showing preview, showing output video
+python3 main.py --device GPU --facialLandmarksDetectionmodel src/models/intel/landmarks-regression-retail-0009/FP16-INT8/landmarks-regression-retail-0009 --headPoseModel src/models/intel/head-pose-estimation-adas-0001/FP16-INT8/head-pose-estimation-adas-0001 --gazeEstimationModel src/models/intel/gaze-estimation-adas-0002/FP16-INT8/gaze-estimation-adas-0002
+
+-run at INT8 precision, device CPU, show preview and output video
+python3 main.py --facialLandmarksDetectionmodel src/models/intel/landmarks-regression-retail-0009/FP16-INT8/landmarks-regression-retail-0009 --headPoseModel src/models/intel/head-pose-estimation-adas-0001/FP16-INT8/head-pose-estimation-adas-0001 --gazeEstimationModel src/models/intel/gaze-estimation-adas-0002/FP16-INT8/gaze-estimation-adas-0002 --show_preview True
+
+-run at INT8 precision , device GPU, show preview and output video
+python3 main.py --device GPU --facialLandmarksDetectionmodel src/models/intel/landmarks-regression-retail-0009/FP16-INT8/landmarks-regression-retail-0009 --headPoseModel src/models/intel/head-pose-estimation-adas-0001/FP16-INT8/head-pose-estimation-adas-0001 --gazeEstimationModel src/models/intel/gaze-estimation-adas-0002/FP16-INT8/gaze-estimation-adas-0002 --show_preview True
+
+-run at INT8 precision, device CPU, show preview but no output video
+python3 main.py --facialLandmarksDetectionmodel src/models/intel/landmarks-regression-retail-0009/FP16-INT8/landmarks-regression-retail-0009 --headPoseModel src/models/intel/head-pose-estimation-adas-0001/FP16-INT8/head-pose-estimation-adas-0001 --gazeEstimationModel src/models/intel/gaze-estimation-adas-0002/FP16-INT8/gaze-estimation-adas-0002 --show_preview True  --show_video False
+
+-run at INT8 precision , device GPU, show preview but no output video
+python3 main.py --device GPU --facialLandmarksDetectionmodel src/models/intel/landmarks-regression-retail-0009/FP16-INT8/landmarks-regression-retail-0009 --headPoseModel src/models/intel/head-pose-estimation-adas-0001/FP16-INT8/head-pose-estimation-adas-0001 --gazeEstimationModel src/models/intel/gaze-estimation-adas-0002/FP16-INT8/gaze-estimation-adas-0002 --show_preview True --show_video False
+
+-run at INT8 precision, device CPU, not showing preview and no output video
+python3 main.py --facialLandmarksDetectionmodel src/models/intel/landmarks-regression-retail-0009/FP16-INT8/landmarks-regression-retail-0009 --headPoseModel src/models/intel/head-pose-estimation-adas-0001/FP16-INT8/head-pose-estimation-adas-0001 --gazeEstimationModel src/models/intel/gaze-estimation-adas-0002/FP16-INT8/gaze-estimation-adas-0002 --show_video False
+
+-run at INT8 precision , device GPU, not showing preview and no output video
+python3 main.py --device GPU --facialLandmarksDetectionmodel src/models/intel/landmarks-regression-retail-0009/FP16-INT8/landmarks-regression-retail-0009 --headPoseModel src/models/intel/head-pose-estimation-adas-0001/FP16-INT8/head-pose-estimation-adas-0001 --gazeEstimationModel src/models/intel/gaze-estimation-adas-0002/FP16-INT8/gaze-estimation-adas-0002 --show_video False
+
+
